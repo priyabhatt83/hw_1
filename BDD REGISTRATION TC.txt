@@ -1,0 +1,25 @@
+
+Feature: As a user merry wants to register on website so she can use all facility
+
+Senario: Merry should be able to register successfully
+
+Given Merry is on Registration page of URL:www.abconline.com
+
+When she enters all required details:
+
+    Required details
+	
+	- First Name "Merry"
+	- Last Name  "Young"
+	- Email "mey@jmail.com"
+	- Password "Mey2012"
+	- Confirm Password "Mey2012"
+
+And click on register button
+
+Then she should be able to register successfully 
+
+And she able to see the message "Your registration is completed"
+
+
+
